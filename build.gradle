@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'Thundra'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+task stage{
+    doFirst{
+        println 'Task dofirst'
+    }
+
+    doLast{
+        println 'Task dofirst'
+    }
+}
