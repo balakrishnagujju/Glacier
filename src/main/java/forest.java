@@ -6,7 +6,7 @@ public class forest {
 
                 get("/hello", (req, res) -> "Hello World");
 
-
+                System.out.println("Init");
                 if(args.length==0){
                     System.out.println("Hello world");
                 }else {
